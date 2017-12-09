@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <EditText
+        android:id="@+id/edt_c_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_person_24dp"
+        android:gravity="center"
+        android:hint="Tên" />
+
+    <EditText
+        android:id="@+id/edt_c_phone_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_phone_24dp"
+        android:gravity="center"
+        android:hint="Số điện thoại"
+        android:inputType="number" />
+
+</LinearLayout>

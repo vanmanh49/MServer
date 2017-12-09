@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MServer</string>
+    <string name="item_add_text">Thêm</string>
+    <string name="item_add_contact_text">Thêm người đăng ký</string>
+    <string name="item_add_student_text">Thêm dữ liệu điểm</string>
+    <string name="dialog_title_update_info">Cập nhật thông tin</string>
+    <string name="exit">Thoát</string>
+    <string name="edt_add_phone_hint">Số điện thoại</string>
+    <string name="edt_add_phone_name_hint">Tên</string>
+    <string name="edt_add_phone_mess">Nhập thông tin cần đăng ký</string>
+    <string name="activity_about_title">Thông tin</string>
+    <string name="dialog_edit_mess">Nhập thông tin cần cập nhật</string>
+    <string name="dialog_add_contact_title">Đăng ký</string>
+    <string name="dialog_add_student_title">Thêm dữ liệu</string>
+</resources>

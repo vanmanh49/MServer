@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#388e3c</color>
+    <color name="colorPrimaryDark">#00600f</color>
+    <color name="colorAccent">#fb8c00</color>
+    <color name="icon_color">#ffffff</color>
+    <color name="fab_none_press_color">#767676</color>
+    <color name="icon_color_1">#a6a6a6</color>
+</resources>

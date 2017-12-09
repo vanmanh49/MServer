@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.vm.mserver.AboutActivity"
+    tools:showIn="@layout/activity_about">
+
+    <TextView
+        android:id="@+id/tv_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nhóm 27"
+        android:textColor="@color/colorAccent"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toTopOf="@id/ln"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:id="@+id/ln"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_group_name">
+
+        <TextView
+            android:id="@+id/tv_mems"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:text="Thành viên"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@id/tv_name1"
+            app:layout_constraintTop_toBottomOf="@id/tv_group_name" />
+
+        <TextView
+            android:id="@+id/tv_name1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Lưu Văn Mạnh  14130065"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@id/tv_name2"
+            app:layout_constraintTop_toBottomOf="@id/tv_mems" />
+
+        <TextView
+            android:id="@+id/tv_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="Nguyễn Đàm Thiếu Phong    14130281"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@id/tv_name3"
+            app:layout_constraintTop_toBottomOf="@id/tv_name1" />
+
+        <TextView
+            android:id="@+id/tv_name3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Vương Trí Tài 13130078"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_name2" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

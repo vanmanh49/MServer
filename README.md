@@ -58,5 +58,4 @@ tìm kết quả điểm trong database và nhắn tin SMS ngược lại cho ng
 <img src="/screenshots/exit/1.png" alt="Screenshot" height="480" width="270"> <img src="/screenshots/exit/2.png" alt="Screenshot" height="480" width="270">
 
 :thumbsup::thumbsup:
-## Hết :sweat_smile::sweat_smile::sweat_smile:
 
